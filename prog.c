@@ -19,7 +19,6 @@ void add(struct node *noode, int value){
 
 struct node* get(struct node *noode, int i){
   if(i==0){
-    printf("wow ");
     return noode;
   }else{
     return get(noode->next,i-1);
